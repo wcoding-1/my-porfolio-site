@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+.active {
+  font-weight: bold;
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.barner {
+  background-image: url("../assert/barnner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40%;
+}
+
+div .barner{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #67b1c6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  text-align: center;
+}
+.project li{
+  border: 1px solid;
+  padding: 20px 0 20px 0;
+
+}
+
+.skills{
+  display: flex;
+  color:red;
+}
+
+.about{
+  width: 50%;
+  margin: 50px auto;
+  font-size: 1.50rem;
+  font-family: "Arial Hebrew" ;
+}
+
+.photo{
+  text-align: center;
+  /*border: 1px solid;*/
+  /*width: 35%;*/
+  /*margin: 0 auto;*/
+
+}
+
+.photo img{
+  /*min-width: 100%;*/
+  border-radius: 100%;
+}
+
+.signup {
+  width: 50%;
+  margin: 30px auto
+}
+
+.profile{
+  width: 50%;
+  margin: 30px auto;
+}
+

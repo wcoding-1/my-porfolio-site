@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c08d642b.css",
+    "main.js": "/static/js/main.a6df64cd.js",
+    "static/media/barnner.jpg": "/static/media/barnner.719698716b016b97a4cc.jpg",
+    "static/media/photoresize1.jpg": "/static/media/photoresize1.0c98a57a559ac392740a.jpg",
+    "index.html": "/index.html",
+    "main.c08d642b.css.map": "/static/css/main.c08d642b.css.map",
+    "main.a6df64cd.js.map": "/static/js/main.a6df64cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c08d642b.css",
+    "static/js/main.a6df64cd.js"
+  ]
+}
